@@ -7,10 +7,19 @@
     --cor4: #FFF;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
     background-color: var(--cor3);
     margin-top: auto;
-    margin-left: 0px;
+}
+
+div#parte1 > img {
+    background-size: 0px;
+    
 }
 
 
