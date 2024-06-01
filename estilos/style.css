@@ -1,5 +1,17 @@
 @charset "UTF-8";
 
-* {
-    background-color: lightblue;
+:root {
+    --cor1: #1A7FBD;
+    --cor2: #A4DCFF;
+    --cor3: #000;
+    --cor4: #FFF;
 }
+
+body {
+    background-color: var(--cor3);
+    margin-top: auto;
+    margin-left: 0px;
+}
+
+
+
