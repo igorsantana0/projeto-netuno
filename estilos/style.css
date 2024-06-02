@@ -103,6 +103,7 @@ section > h1 {
 }
 
 section > p {
+    background-position: right center;
     line-height: 1.3em;
     font-size: 1.1vw;
     position: relative;
@@ -114,13 +115,303 @@ section > p {
 }
 
 #parte3 {
-    background-position: top left 250px;
     background-color: var(--cor4);
-    background-image: url(../Assets_Netuno/Container2.png);
-    position: relative;
-    top: 800px;
-    height: 750px;
+    position: absolute;
+    top: 1670px;
+    height: 1500px;
     width: 1519px;
-    background-repeat: no-repeat;
-    background-size: 500px 700px;
 }
+
+#parte3 > img {
+    position: relative;
+    height: 800px;
+    top: 25px;
+    right: 260px;
+
+}
+
+div > h1 {
+    font-size: 2.8vw;
+    color: var(--cor1);
+    position: absolute;
+    top: 165px;
+    left: 870px;
+    
+}
+
+#parte3 > p {
+    font-size: 1.3vw;
+    color: var(--cor3);
+    position: relative;
+    top: -570px;
+    width: 400px;
+    height: 140px;
+}
+
+div#caixa1 {
+    background-color: rgb(243, 242, 242);
+    position: relative;
+    top: 1420px;
+    left: 250px;
+    width: 330px;
+    height: 220px;
+    font-size: 1.3vw;
+    border-radius: 10px;
+    box-shadow: 6px 10px 13px 0px rgba(0, 0, 0, 0.248);
+}
+
+div#caixa2 {
+    background-color: rgb(243, 242, 242);
+    position: relative;
+    top: 1200px;
+    left: 590px;
+    width: 330px;
+    height: 220px;
+    font-size: 1.3vw;
+    border-radius: 10px;
+    box-shadow: 6px 10px 13px 0px rgba(0, 0, 0, 0.248);
+}
+
+div#caixa3 {
+    background-color: rgb(243, 242, 242);
+    position: relative;
+    top: 980px;
+    left: 940px;
+    width: 330px;
+    height: 220px;
+    font-size: 1.3vw;
+    border-radius: 10px;
+    box-shadow: 6px 10px 13px 0px rgba(0, 0, 0, 0.248);
+}
+
+#frase {
+    position: absolute;
+    top: 90px;
+}
+
+#t {
+    color: var(--cor3);
+    position: relative;
+    font-size: 1.5em;
+    left: 0px;
+    top: 30px;
+}
+
+#parte4 > h1 {
+    color: var(--cor1);
+    position: relative;
+    top: 1130px;
+    left: 255px;
+    right: 150px;
+}
+
+#cx1 {
+    background-color: var(--cor1);
+    color: var(--cor4);
+    position: relative;
+    top: 1180px;
+    left: 260px;
+    width: 320px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+#t1 {
+    position: relative;
+    font-size: 1.1vw;
+    top: -35px;
+    left: 80px;
+    width: 200px;
+}
+
+#calendario {
+    background-color: var(--cor4);
+    border-radius: 5px;
+    position: relative;
+    top: 13px;
+    right: 120px;
+    width: 45px;
+}
+
+#cx2 {
+    background-color: var(--cor1);
+    color: var(--cor4);
+    position: relative;
+    top: 1110px;
+    left: 600px;
+    width: 320px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+#t2 {
+    position: relative;
+    font-size: 1.1vw;
+    top: -35px;
+    left: 80px;
+    width: 200px;
+}
+
+#medalha {
+    background-color: var(--cor4);
+    border-radius: 5px;
+    position: relative;
+    top: 13px;
+    right: 120px;
+    width: 45px;
+}
+
+#cx3 {
+    background-color: var(--cor1);
+    color: var(--cor4);
+    position: relative;
+    top: 1040px;
+    left: 940px;
+    width: 320px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+#t3 {
+    position: relative;
+    font-size: 1.1vw;
+    top: -35px;
+    left: 80px;
+    width: 200px;
+}
+
+#relogio {
+    background-color: var(--cor4);
+    border-radius: 5px;
+    position: relative;
+    top: 13px;
+    right: 120px;
+    width: 45px;
+}
+
+#cx4 {
+    background-color: var(--cor1);
+    color: var(--cor4);
+    position: relative;
+    top: 1060px;
+    left: 260px;
+    width: 320px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+#t4 {
+    position: relative;
+    font-size: 1.1vw;
+    top: -35px;
+    left: 80px;
+    width: 200px;
+}
+
+#home {
+    background-color: var(--cor4);
+    border-radius: 5px;
+    position: relative;
+    top: 13px;
+    right: 120px;
+    width: 45px;
+}
+
+#cx5 {
+    background-color: var(--cor1);
+    color: var(--cor4);
+    position: relative;
+    top: 991px;
+    left: 600px;
+    width: 320px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+#t5 {
+    position: relative;
+    font-size: 1.1vw;
+    top: -20px;
+    left: 80px;
+    width: 200px;
+}
+
+#grupo {
+    background-color: var(--cor4);
+    border-radius: 5px;
+    position: relative;
+    top: 18px;
+    right: 120px;
+    width: 45px;
+}
+
+#cx6 {
+    background-color: var(--cor1);
+    color: var(--cor4);
+    position: relative;
+    top: 921px;
+    left: 940px;
+    width: 320px;
+    height: 70px;
+    border-radius: 10px;
+}
+
+#t6 {
+    position: relative;
+    font-size: 1.1vw;
+    top: -35px;
+    left: 80px;
+    width: 200px;
+}
+
+#target {
+    background-color: var(--cor4);
+    border-radius: 5px;
+    position: relative;
+    top: 13px;
+    right: 120px;
+    width: 45px;
+}
+
+#botao2 {
+    position: relative;
+    font-size: 1.0vw;
+    top: 1030px;
+    left: 260px;
+    width: 440px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: var(--cor3);
+    color: var(--cor4);
+    font-weight: bold;
+    text-align: top;
+}
+
+button > p {
+    position: relative;
+    top: 15px;
+    right: 15px;
+}
+
+button > p > strong {
+    color: var(--cor1);
+}
+
+#enter {
+    position: relative;
+    top: -5px;
+    left: 180px;
+    width: 25px;
+}
+
+#imagem6 {
+    width: 170px;
+    height: 35px;
+    position: relative;
+    top: 1030px;
+    left: 260px;
+}
+
+
+
+
