@@ -20,7 +20,7 @@ html, body {
     max-width: 1000px;
     background-image: url(../Assets_Netuno/bannertopo.png);
     background-repeat: no-repeat;
-    background-position: right -200px top 10px;
+    background-position: right -220px top 10px;
 }
 
 main {
@@ -51,14 +51,76 @@ nav > .link {
     left: 350px;
     width: 150px;
     height: 45px;
-    border-radius: 5px;
+    border-radius: 7px;
     background-color: var(--cor3);
     color: var(--cor4);
     font-weight: bold;
 }
 
-section > form{
-    position: relative;
-    left: 530px;
+section > form {
+    position: absolute;
+    left: 930px;
     top: 180px;
+    background-color: var(--cor4);
+    border-radius: 15px;
+    width: 400px;
+    height: 700px;
+}
+
+form > h1 {
+    position: absolute;
+    top: 30px;
+    left: 35px;
+    color: rgb(203, 193, 193);
+}
+
+form > p {
+    color: var(--cor1);
+    position: relative;
+    top: 60px;
+    right: 60px;
+}
+
+#formulario {
+    background-color: var(--cor1);
+    position: relative;
+    top: 200px;
+    height: 170px;
+}
+
+section > img {
+    position: relative;
+    top: 1000px;
+    height: 500px;
+}
+
+section > h1 {
+    font-size: 2.8vw;
+    color: var(--cor2);
+    position: relative;
+    top: 580px;
+    left: 450px;
+}
+
+section > p {
+    line-height: 1.3em;
+    font-size: 1.1vw;
+    position: relative;
+    width: 400px;
+    height: 150px;
+    color: var(--cor4);
+    top: 620px;
+    left: 850px;
+}
+
+#parte3 {
+    background-position: top left 250px;
+    background-color: var(--cor4);
+    background-image: url(../Assets_Netuno/Container2.png);
+    position: relative;
+    top: 800px;
+    height: 750px;
+    width: 1519px;
+    background-repeat: no-repeat;
+    background-size: 500px 700px;
 }
