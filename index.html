@@ -14,7 +14,7 @@
             <a class="link" href="#">O Problema</a>
             <a class="link" href="#">Sua Jornada</a>
             <a class="link" href="#">Objetivos</a>
-            <button id="botao1" type="button">Processo Seletivo</button>
+            <a href="#"><button id="botao1" type="button">Processo Seletivo</button></a>
         </nav>
     </header>
     <main>
@@ -24,15 +24,15 @@
                 <p>Preencha seus Dados</p>
                 <p>
                 <label for="inome completo"></label>
-                <input class="nome" type="text" name="nome completo" id="inome completo" placeholder="Nome completo *">
+                <input class="nome" type="text" name="nome completo" id="inome completo" placeholder="Nome completo *" size="40">
                 </p>
                 <p>
                 <label for="ie-mail"></label>
-                <input class="email" type="text" name="E-mail" id="ie-mail" placeholder="E-mail*">
+                <input class="email" type="text" name="E-mail" id="ie-mail" placeholder="E-mail*" size="40">
                 </p>
                 <p>
                 <label for="iestado"></label>
-                <input class="estado" type="text" name="estado" id="iestado" list="liestado" placeholder="Estado *">
+                <input class="estado" type="text" name="estado" id="iestado" list="liestado" placeholder="Estado *" size="40">
                 </p>
                     <datalist id="liestado">
                         <option value="AC">Acre</option>
@@ -77,14 +77,16 @@
                             <input type="checkbox" name="iflutter" id="iflutter" checked><label for="iflutter">Flutter</label>
                             <input type="checkbox" name="ioutras" id="ioutras" checked><label for="ioutras">Outras</label>
                         </section>
-                        <p>Já trabalhou com desenvolvimento?</p>
-                         <input type="checkbox" name="inao" id="inao"><label for="inao">Não</label>
-                        <input type="checkbox" name="isim" id="isim"><label for="isim">Sim</label>
-                         <small>
-                            <p>Campos Obrigatórios *</p>
-                        </small>
-                
-                        <input class="enviar" type="submit" name="submit" id="submit">
+                        
+                            <div id="dev1">
+                                <p id="dev">Já trabalhou com desenvolvimento?</p>
+                                 <input type="checkbox" name="inao" id="inao"><label for="inao">Não</label>
+                                <input type="checkbox" name="isim" id="isim"><label for="isim">Sim</label>
+                                 <small>
+                                    <p>Campos Obrigatórios *</p>
+                                </small>
+                                <input class="enviar" type="submit" name="submit" id="submit">
+                            </div>
             </form>
         </section>
         <section id="parte2">
@@ -163,9 +165,11 @@
                     dentro da tecnologia.</p>
             </div>
             <div>
-                <button id="botao2"><p>Quero me cadastrar para o <strong>Processo Seletivo</strong></p>
-                    <img id="enter" src="Assets_Netuno/icones/enter.png" alt="enter">
-                </button>
+                <a href="#">
+                    <button id="botao2"><p>Quero me cadastrar para o <strong>Processo Seletivo</strong></p>
+                        <img id="enter" src="Assets_Netuno/icones/enter.png" alt="enter">
+                    </button>
+                </a>
             </div>
             <img id="imagem6" src="Assets_Netuno/Elements/Vector1.png" alt="detalhe2">
         </section>
@@ -197,11 +201,32 @@
                     estratégicos de negócios.</p>
             </div>
         </section>
-        <section id="parte6">
-            <footer>
-                <p id="lala">aosdoaisjdoaisjd</p>
-            </footer>
-        </section>
     </main>
+    <footer>
+        <img id="imgf" src="Assets_Netuno/assets/logo+slogan.png" alt="logof">
+        <a href="#"><img id="social" src="Assets_Netuno/icones/fb.png" alt="facebook"></a>
+        <a href="#"><img id="social" src="Assets_Netuno/icones/ig.png" alt="instagram"></a>
+        <a href="#"><img id="social" src="Assets_Netuno/icones/in.png" alt="linkedin"></a>
+        <h3>Netuno&copy; 2024 - Todos os direitos reservados</h3>
+        <a href="#"><button id="botao3" type="button">Processo Seletivo</button></a>
+        <ul>
+            <a href="#">
+                <p id="p1">O Projeto</p>
+            </a>
+            <a href="#">
+                <p id="p2">O Problema</p>
+            </a>
+            <a href="#">
+                <p id="p3">Sua Jornada</p>
+            </a>
+            <a href="#">
+                <p id="p4">Objetivos</p>
+            </a>
+                <p id="p5"><strong>Contato</strong></p>
+                <p id="p6">11 91234.5678</p>
+                <p id="p7">contato@netuno.com.br</p>
+            
+        </ul>
+    </footer>
 </body>
 </html>
