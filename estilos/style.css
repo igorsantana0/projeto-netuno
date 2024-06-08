@@ -414,9 +414,8 @@ button > p > strong {
 
 #parte5 {
     background-color: var(--cor1);
-    background-size: 500px;
-    position: absolute;
-    top: 2150px;
+    position: relative;
+    top: 0px;
     height: 0px;
     width: 0px;
 }
@@ -429,7 +428,7 @@ button > p > strong {
     right: 150px;
 }
 
-#t1 {
+#t7 {
     font-size: 1.3vw;
     color: var(--cor3);
     position: relative;
@@ -473,6 +472,12 @@ button > p > strong {
     font-size: 1.3vw;
     border-radius: 10px;
     box-shadow: 6px 10px 13px 0px rgba(0, 0, 0, 0.248);
+}
+
+#parte6#lala {
+    background-color: var(--cor3);
+    color: var(--cor4);
+
 }
 
 
