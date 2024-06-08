@@ -118,7 +118,7 @@ section > p {
     background-color: var(--cor4);
     position: absolute;
     top: 1670px;
-    height: 1500px;
+    height: 1680px;
     width: 1519px;
 }
 
@@ -405,12 +405,77 @@ button > p > strong {
 }
 
 #imagem6 {
-    width: 170px;
-    height: 35px;
+    width: 185px;
+    height: 30px;
     position: relative;
-    top: 1030px;
+    top: 1050px;
     left: 260px;
 }
+
+#parte5 {
+    background-color: var(--cor1);
+    background-size: 500px;
+    position: absolute;
+    top: 2150px;
+    height: 0px;
+    width: 0px;
+}
+
+#objetivos {
+    color: var(--cor4);
+    position: relative;
+    top: 1250px;
+    left: 670px;
+    right: 150px;
+}
+
+#t1 {
+    font-size: 1.3vw;
+    color: var(--cor3);
+    position: relative;
+    top: 60px;
+    width: 300px;
+    height: 0px;
+    left: 15px;
+}
+
+#parte5 > div#caixa1 {
+    background-color: rgb(243, 242, 242);
+    position: relative;
+    top: 1300px;
+    left: 250px;
+    width: 330px;
+    height: 220px;
+    font-size: 1.3vw;
+    border-radius: 10px;
+    box-shadow: 6px 10px 13px 0px rgba(0, 0, 0, 0.248);
+}
+
+#parte5 > div#caixa2 {
+    background-color: rgb(243, 242, 242);
+    position: relative;
+    top: 1080px;
+    left: 590px;
+    width: 330px;
+    height: 220px;
+    font-size: 1.3vw;
+    border-radius: 10px;
+    box-shadow: 6px 10px 13px 0px rgba(0, 0, 0, 0.248);
+}
+
+#parte5 > div#caixa3 {
+    background-color: rgb(243, 242, 242);
+    position: relative;
+    top: 861px;
+    left: 930px;
+    width: 330px;
+    height: 220px;
+    font-size: 1.3vw;
+    border-radius: 10px;
+    box-shadow: 6px 10px 13px 0px rgba(0, 0, 0, 0.248);
+}
+
+
 
 
 
